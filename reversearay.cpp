@@ -47,7 +47,7 @@ int main()
         return -1;
     }
     rewind(IN);
-    int *arr = (int*)malloc(len*sizeof(int));
+    int* arr = (int*)malloc(len*sizeof(int));
     if(arr == NULL)
     {
         fclose(IN);
